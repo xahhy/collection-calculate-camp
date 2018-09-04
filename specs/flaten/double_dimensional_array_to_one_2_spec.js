@@ -2,7 +2,7 @@
 
 var double_to_one = require("../../practices/flaten/double_dimensional_array_to_one_2.js");
 
-describe('double_to_one', function() {
+ddescribe('double_to_one', function() {
 
   var collection = [[1, 2, 3], [5, 2, 1, 4], [2, 1]];
 

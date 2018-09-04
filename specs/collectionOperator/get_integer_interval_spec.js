@@ -2,7 +2,7 @@
 
 var get_integer_interval = require('../../practices/collectionOperator/get_integer_interval.js');
 
-describe('get_integer_interval', function () {
+ddescribe('get_integer_interval', function () {
 
   var collection_a = [1, 2, 3, 4, 5];
   var collection_b = [5, 4, 3, 2, 1];

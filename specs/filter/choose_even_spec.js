@@ -2,7 +2,7 @@
 
 var choose_even = require("../../practices/filter/choose_even.js");
 
-describe('choose_even', function() {
+ddescribe('choose_even', function() {
 
   var collection = [0, 1, 2, 3, 4, 6];
 

@@ -1,8 +1,9 @@
 'use strict';
 
 var create_updated_collection = require("../../practices/section_3/practice_4/practice.js");
+var count_same_elements = require("../../practices/section_2/practice_2/practice.js");
 
-describe('practice-3-4', function() {
+ddescribe('practice-3-4', function() {
 
   var collection_a = [
     "a", "a", "a",

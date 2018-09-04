@@ -2,7 +2,7 @@
 
 var count_same_elements = require("../../practices/section_2/practice_1/practice.js");
 
-describe('practice-2-1', function() {
+ddescribe('practice-2-1', function() {
 
   var collection = [
     "a", "a", "a",

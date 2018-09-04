@@ -1,7 +1,14 @@
 'use strict';
 
 function compute_median(collection) {
-  //在这里写入代码
+  let chainLength = collection.length;
+  collection = collection.map(num=>parseInt(num)).sort((a,b)=>a-b);
+  console.log(collection);
+  if (chainLength % 2 === 0) {
+    return (parseFloat(collection[chainLength / 2 - 1]) + parseFloat(collection[chainLength / 2])) / 2;
+  }else {
+    return collection[parseInt(chainLength/2)];
+  }
 }
 
 module.exports = compute_median;

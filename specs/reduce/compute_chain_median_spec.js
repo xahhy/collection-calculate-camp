@@ -2,7 +2,7 @@
 
 var compute_chain_median = require('../../practices/reduce/compute_chain_median.js');
 
-describe('compute_chain_median', function () {
+ddescribe('compute_chain_median', function () {
 
   var chain = '1->4->6->2->3->10->9->8->11->20->19->30';
 

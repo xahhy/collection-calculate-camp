@@ -1,6 +1,7 @@
 'use strict';
 
 function choose_no_repeat_number(collection) {
+  //Set
   let charMap={};
   return collection.filter(item=>{
     if(charMap[item]){

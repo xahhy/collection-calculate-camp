@@ -2,7 +2,7 @@
 
 function hybrid_operation(collection) {
 
-  //在这里写入代码
+  return collection.map(num=>num*3+2).reduce((sum, num)=> sum+=num, 0);
 }
 
 module.exports = hybrid_operation;

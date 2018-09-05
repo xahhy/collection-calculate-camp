@@ -3,7 +3,6 @@
 function compute_median(collection) {
   let chainLength = collection.length;
   collection = collection.map(num=>parseInt(num)).sort((a,b)=>a-b);
-  console.log(collection);
   if (chainLength % 2 === 0) {
     return (parseFloat(collection[chainLength / 2 - 1]) + parseFloat(collection[chainLength / 2])) / 2;
   }else {
